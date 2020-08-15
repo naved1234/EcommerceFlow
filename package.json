@@ -1,0 +1,20 @@
+{
+  "name": "EcommerceFlow",
+  "version": "1.0.0",
+  "description": "Consists of an API to create Orders for an ecommerce flow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naved1234/EcommerceFlow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naved1234/EcommerceFlow/issues"
+  },
+  "homepage": "https://github.com/naved1234/EcommerceFlow#readme"
+}
