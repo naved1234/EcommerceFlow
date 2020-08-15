@@ -6,6 +6,11 @@ const OrderSchema = new mongoose.Schema({
     ref: 'Account',
     required: true
   },
+  inventory: {
+    type: mongoose.Schema.ObjectId,
+    ref: 'Inventory',
+    required: true
+  },
   product: {
     type: String,
     required: [true, 'Please add the product in the order']
@@ -26,7 +31,7 @@ const OrderSchema = new mongoose.Schema({
     type: Number,
     required: [true, 'Please add total amount in the order']
   },
-  address: {
+  shippingAddress: {
     type: String,
     required: [true, 'Please add the product in the order']
   },
