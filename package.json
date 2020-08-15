@@ -2,33 +2,40 @@
   "name": "EcommerceFlow",
   "version": "1.0.0",
   "description": "Consists of an API to create Orders for an ecommerce flow",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/naved1234/EcommerceFlow.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Naved Ahmad",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/naved1234/EcommerceFlow/issues"
   },
   "homepage": "https://github.com/naved1234/EcommerceFlow#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
+    "crypto": "^1.0.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-mongo-sanitize": "^2.0.0",
     "express-rate-limit": "^5.1.3",
     "helmet": "^4.0.0",
     "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.10.0",
     "morgan": "^1.10.0",
     "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
