@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/naved1234/EcommerceFlow#readme",
   "dependencies": {
+    "async-mutex": "^0.2.4",
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
     "cookie-parser": "^1.4.5",
